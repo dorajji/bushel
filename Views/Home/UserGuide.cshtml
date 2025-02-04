@@ -1,0 +1,183 @@
+@{
+    ViewData["Title"] = "Руководство пользователя";
+}
+
+<div class="container mt-4">
+    <div class="headline">
+        <h1 class="mb-4">Руководство пользователя</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group sticky-top" style="top: 2rem;">
+                <a href="#intro" class="list-group-item list-group-item-action">Начало</a>
+                <a href="#registration" class="list-group-item list-group-item-action">1. Регистрация и вход</a>
+                <a href="#search" class="list-group-item list-group-item-action">2. Поиск товаров</a>
+                <a href="#products" class="list-group-item list-group-item-action">3. Просмотр и выбор товаров</a>
+                <a href="#wish-list" class="list-group-item list-group-item-action">4. Раздел "Избранное"</a>
+                <a href="#order" class="list-group-item list-group-item-action">5. Оформление заказа</a>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <section id="intro" class="mb-5">
+                <h2 class="display-3">Добро пожаловать в интернет-магазин кондитерской Бушель</h2>
+                <p>Это руководство поможет вам легко и быстро ориентироваться на сайте, совершать покупки и решать возможные вопросы.</p>
+            </section>
+
+            <section id="registration" class="mb-5">
+                <h2>1. Регистрация и вход в аккаунт</h2>
+                <h4>Регистрация</h4>
+                <ol>
+                    <li>Нажмите кнопку "Войти" в верхнем меню</li>
+                    <li>в появившемся окне выберите "Регистрация"</li>
+                    <li>Заполните обязательные поля:
+                        <ul>
+                            <li>Имя пользователя</li>
+                            <li>Email (будет использоваться для входа и уведомлений)</li>
+                            <li>Пароль (минимум 6 символов, латинские буквы и цифры)</li>
+                        </ul>
+                    </li>
+                    <li>Нажмите кнопку "Зарегистрироваться"</li>
+                </ol>
+
+                <h4>Вход в аккаунт</h4>
+                <ol>
+                    <li>Нажмите "Войти" в верхнем меню</li>
+                    <li>Введите email и пароль</li>
+                    <li>Нажмите кнопку "Войти"</li>
+                </ol>
+
+                <div class="alert alert-info alert-color">
+                    <strong class="strong-color">При возникновении проблем:</strong>
+                    <ul>
+                        <li>Проверьте правильность написания email</li>
+                        <li>Убедитесь, что Caps Lock выключен</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="search" class="mb-5">
+                <h2>2. Поиск товаров</h2>
+                <h4>Через поисковую строку</h4>
+                <ol>
+                    <li>Введите название товара в поисковую строку в верхней части сайта.</li>
+                    <li>Нажмите Enter или значок лупы.</li>
+                    <li>Выберите товар из списка результатов.</li>
+                </ul>
+                <h4>Поиск через каталог</h4>
+                    <li>Перейдите в раздел "Каталог" в главном меню </li>
+                    <li>Выберите категорию товаров</li>
+                </ul>
+            </section>
+
+            <section id="products" class="mb-5">
+                <h2>3. Просмотр и выбор товаров</h2>
+                <h4>Информация о товаре</h4>
+                <p>Полная информация о товаре представлена на карточке товара</p>
+                <ul>
+                    <li>Для добавления товара в корзину нажмите на кнопку с иконкой корзины</li>
+                    <li>Для добавления в "Избранное" нажмите на кнопку с иконкой сердечка</li>
+                </ul>
+
+            </section>
+
+            <section id="wish-list" class="mb-5">
+                <h2>4. Раздел "Избранное"</h2>
+                <ol>
+                    <li>Для добавления в "Избранное" нажмите на кнопку с иконкой сердечка внизу карточки товара</li>
+                    <li>Перейти в "Избранное" можно, нажав на значок корзины в верхнем меню</li>
+                        <ul>
+                            <li>В данном разделе хранятся товары, которые вам понравились</li>
+                            <li>Это удобно для планирования дальнейших покупок</li>
+                        </ul>
+                </ol>
+                <h4>Управление товарами в "Избранном"</h4>
+                <ul>
+                    <li>Для добавления товара в корзину нажмите на кнопку с иконкой корзины на карточке товара</li>
+                    <li>Для удаления товара из "Избранного" нажмите на кнопку с иконкой мусорного бака</li>
+                </ul>
+            </section>
+
+            <section id="order" class="mb-5">
+                <h2>5. Корзина и оформление заказа</h2>
+                <ol>
+                    <li>Перейдите в "Корзину", нажав на кнопку в верхнем меню</li>
+                        <ul>
+                            <li>На странице корзины выберите можете изменить количество товаров, содержащихся В ней</li>
+                        </ul>
+                    <li>Нажмите на кнопку "Оформить заказ"</li>
+                    <li>Укажите данные для доставки:
+                        <ul>
+                            <li>Город доставки</li>
+                            <li>Адрес доставки</li>
+                            <li>Комментарий к заказу (если необходимо)</li>
+                        </ul>
+                    </li>
+                    <li>Пополнить баланс сайта через:
+                        <ul>
+                            <li>Систему быстрых платежей (СБП)</li>
+                            <li>Банковскую карту</li>
+                        </ul>
+                    </li>
+                    <li>Проверьте детали заказа</li>
+                    <li>Нажмите "Оформить заказ"</li>
+                </ol>
+            </section>
+        </div>
+    </div>
+</div>
+
+<style>
+.list-group-item {
+    border-radius: 0;
+    border-left: 3px solid transparent;
+}
+
+.list-group-item:hover {
+    border-left: 3px solid var(--bs-primary);
+}
+
+section {
+    scroll-margin-top: 2rem;
+}
+
+h1 {
+    color: #334E26;
+    font-size: 4rem;
+}
+
+h2 {
+    color: var(--bs-primary);
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    color: #2c3e50;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: #334E26;
+}
+
+.alert-color {
+    border-color: #7A9C57;
+    background-color: #E8F0D5;
+
+}
+
+strong {
+    color:#7A9C57;
+}
+
+li {
+    color:#334E26
+}
+
+.headline {
+    display: flex-box;
+    align-items: center;
+}
+</style> 
