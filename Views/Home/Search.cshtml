@@ -78,11 +78,16 @@
         font-size: 1.25rem;
     }
     .product-image-container {
-    height: 200px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+}
+.alert-color {
+    border-color: #7A9C57;
+    background-color: #E8F0D5;
+    color: #7A9C57;
 }
 </style>
 
@@ -103,7 +108,7 @@
 
     @if (!Model.Any())
     {
-        <div class="alert alert-info">
+        <div class="alert alert-color">
             <i class="bi bi-info-circle me-2"></i>По вашему запросу ничего не найдено
         </div>
     }

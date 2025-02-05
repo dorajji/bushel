@@ -26,7 +26,7 @@ namespace bushel.Controllers
             }
 
             var products = await _context.Products
-                .Where(p => p.Name.Contains(query) || p.Description.Contains(query))
+                .Where(p => p.Name.ToLower().Contains(query.ToLower()) || p.Description.ToLower().Contains(query.ToLower()))
                 .ToListAsync();
 
             ViewBag.SearchQuery = query;
